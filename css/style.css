@@ -947,63 +947,51 @@ footer {
     display: none;
   }
   .services .container {
-    width: 61.45833vw;
+    padding-top: 13.33333vw;
     margin: 0 auto;
-    padding-top: 3.4375vw;
+    width: 90.66667vw;
   }
   .services .container h1 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.08333vw;
-    color: #242d39;
-    margin-bottom: 2.08333vw;
+    font-size: 5.86667vw;
+    margin-bottom: 3.73333vw;
   }
   .services .container .stroka {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
   }
   .services .container .stroka .service {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 1.30208vw;
-    width: 30.20833vw;
-    height: 12.5vw;
-    background-color: #f6f6f6;
-    border-radius: 0.78125vw;
+    margin-bottom: 2.66667vw;
+    width: 90.66667vw;
+    height: 38.4vw;
+    border-radius: 2.66667vw;
   }
   .services .container .stroka .service img {
-    border-radius: 0.78125vw 0px 0px 0.78125vw;
+    border-radius: 2.66667vw 0px 0px 2.66667vw;
     height: 100%;
+    width: 45.33333vw;
   }
   .services .container .stroka .service div h2 {
-    margin: 0.9375vw 0px 0px 1.30208vw;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 0.72917vw;
-    text-transform: uppercase;
-    color: #aaaaaa;
+    margin: 2.4vw 0px 0px 1.86667vw;
+    font-size: 2.13333vw;
   }
   .services .container .stroka .service div h1 {
-    margin: 0.36458vw 0px 0px 1.30208vw;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.14583vw;
-    color: #242d39;
+    margin: 0.8vw 0px 0px 1.86667vw;
+    font-size: 4vw;
   }
   .services .container .stroka .service div p {
-    margin: 0.9375vw 0px 0px 1.30208vw;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.72917vw;
-    color: #6d6d6d;
+    margin: 1.86667vw 0px 0px 1.86667vw;
+    font-size: 2.4vw;
   }
   .services .container .stroka .marg-r {
-    margin-right: 1.04167vw;
+    margin-right: 5.33333vw;
+  }
+  .services .container .stroka .ecivres img {
+    margin-left: 45.33333vw;
+    border-radius: 0px 2.66667vw 2.66667vw 0px;
+  }
+  .services .container .stroka .ecivres div {
+    margin-left: -90.66667vw;
   }
 }
