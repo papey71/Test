@@ -502,13 +502,13 @@ footer {
 }
 
 .materials .container .str .calculator p {
+  margin: 0 auto;
   margin-top: 0.52083vw;
   width: 22.60417vw;
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
   font-size: 1.14583vw;
-  text-align: center;
   color: #242d39;
 }
 
@@ -781,6 +781,7 @@ footer {
 
 .forma .container h1 {
   margin-right: 8.64583vw;
+  width: 23.02083vw;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
@@ -844,7 +845,7 @@ footer {
   display: flex;
 }
 
-.forma .container form div button {
+.forma .container form div span button {
   width: 12.1875vw;
   height: 3.07292vw;
   border-radius: 1.5625vw;
@@ -857,7 +858,7 @@ footer {
   background-color: #ff7a00;
 }
 
-.forma .container form div a {
+.forma .container form div div a {
   margin-left: 2.08333vw;
   font-family: "Inter";
   font-style: normal;
@@ -866,7 +867,7 @@ footer {
   color: #737373;
 }
 
-.forma .container form div a span {
+.forma .container form div div a span {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
 }
@@ -993,5 +994,118 @@ footer {
   }
   .services .container .stroka .ecivres div {
     margin-left: -90.66667vw;
+  }
+  .accordion .container {
+    padding-top: 13.33333vw;
+    margin: 0 auto;
+    width: 90.66667vw;
+  }
+  .accordion .container h1 {
+    margin-bottom: 8.53333vw;
+    font-size: 5.33333vw;
+  }
+  .accordion .container .sub__accordion .accordion-line {
+    height: 0.26667vw;
+  }
+  .accordion .container .sub__accordion .accordion-item .accordion-item__trigger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8vw 0 8vw 0;
+    cursor: pointer;
+  }
+  .accordion .container .sub__accordion .accordion-item .accordion-item__trigger h2 {
+    font-size: 4.26667vw;
+  }
+  .accordion .container .sub__accordion .accordion-item .accordion-item__trigger img {
+    margin-right: 5.06667vw;
+    max-width: 8vw;
+    max-height: 4vw;
+  }
+  .accordion .container .sub__accordion .accordion-item .accordion-item__content {
+    display: none;
+  }
+  .accordion .container .sub__accordion .accordion-item .accordion-item__content p {
+    margin-bottom: 8vw;
+    font-size: 4.26667vw;
+  }
+  .accordion .container .sub__accordion .accordion-item--active .accordion-item__content {
+    display: block;
+  }
+  .accordion .container .sub__accordion .accordion-item--active .accordion-item__trigger img {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
+  .accordion .container a {
+    margin-top: 9.86667vw;
+    width: 44.26667vw;
+    padding: 5.33333vw 13.86667vw;
+    border: 0.26667vw solid #ff7a00;
+    border-radius: 8vw;
+    font-size: 3.73333vw;
+  }
+  .forma {
+    width: 100%;
+    height: 170.93333vw;
+    background-color: #f1f1f1;
+    margin-top: 17.6vw;
+  }
+  .forma .container {
+    margin: 0 auto;
+    padding-top: 13.06667vw;
+    width: 90.66667vw;
+    display: block;
+  }
+  .forma .container h1 {
+    width: 88vw;
+    margin: 0px;
+    font-size: 6.93333vw;
+  }
+  .forma .container form {
+    margin-top: 10.66667vw;
+    width: 90.66667vw;
+  }
+  .forma .container form input {
+    padding-bottom: 2.66667vw;
+    width: 100%;
+    font-size: 4.26667vw;
+  }
+  .forma .container form p {
+    margin-bottom: 6.66667vw;
+    font-size: 4.26667vw;
+  }
+  .forma .container form textarea {
+    padding-bottom: 2.66667vw;
+    width: 100%;
+    height: 5.6vw;
+    font-size: 4.26667vw;
+    line-height: 5.6vw;
+  }
+  .forma .container form .form-line {
+    margin: 0 0 10.66667vw 0;
+    width: 100%;
+    height: 0.26667vw;
+  }
+  .forma .container form .footer-button {
+    display: block;
+    width: 100%;
+  }
+  .forma .container form .footer-button span button {
+    margin: 0 auto;
+    margin-top: -4vw;
+    width: 90.66667vw;
+    height: 15.73333vw;
+    border-radius: 8vw;
+    font-size: 4.26667vw;
+  }
+  .forma .container form .footer-button div {
+    margin: 0 auto;
+    width: 76.53333vw;
+    margin-top: 6.66667vw;
+  }
+  .forma .container form .footer-button div a {
+    margin: 0px;
+    text-align: center;
+    font-size: 3.2vw;
   }
 }
