@@ -932,9 +932,10 @@ footer {
     font-size: 4.26667vw;
   }
   .materials .container .str .calculator p {
-    margin-top: 2.66667vw;
     width: 80.8vw;
+    margin-top: 2.66667vw;
     font-size: 5.33333vw;
+    text-align: center;
   }
   .materials .container .str .calculator a {
     display: block;
